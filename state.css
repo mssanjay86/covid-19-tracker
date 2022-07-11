@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+.date-logout {
+    position: relative;
+    left: 1180px;
+    top: 40px;
+    width: 50%;
+}
+
+.date-logout button a {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.date-logout #date {
+    position: absolute;
+    left: -80px;
+    top: 25px;
+    font-weight: bold;
+}
+
+.drop-down {
+    margin-left: 10px;
+}
+
+.drop-down #drop-countries {
+    padding: 20px;
+    width: 50%;
+}
+
+#drop-countries {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.container {
+    background-color: aqua;
+    height: 850px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.container .stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.container .stats div {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.container .stats div p {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.example {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container .stats #active-cases i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-size: 25px;
+}
+
+.container .stats #deaths i {
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+}
+
+.container .stats #recovered i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-size: 25px;
+}
+
+.container .stats #total-test i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 25px;
+}
+
+.container .stats #actives i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 25px;
+}
+
+.container .stats #today-cases i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 25px;
+}
+
+.container .stats #today-deaths i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 25px;
+}
+
+.container .stats #today-recovered i {
+    color: rgba(250, 243, 243, 0.897);
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 25px;
+}
+
+.container .stats #active-cases {
+    background-color: red;
+}
+
+.container .stats #deaths {
+    background-color: blue;
+}
+
+.container .stats #recovered {
+    background-color: green;
+}
+
+.container .stats #total-test {
+    background-color: salmon;
+}
+
+.container .stats #actives {
+    background-color: darkturquoise;
+}
+
+.container .stats #today-cases {
+    background-color: crimson;
+}
+
+.container .stats #today-deaths {
+    background-color: orangered;
+}
+
+.container .stats #today-recovered {
+    background-color: maroon;
+}
+
+.pie-chart {
+    height: 400px;
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 370px;
+}
+
+.pie-chart h1 {
+    margin-bottom: 50px;
+}
+
+.bar-chart {
+    height: 400px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 370px;
+}
+
+.bar-chart h1 {
+    margin-bottom: 50px;
+}
+
+.line-chart {
+    height: 400px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 370px;
+}
+
+.line-chart h1 {
+    margin-bottom: 50px;
+}
+
+.year-bar-chart {
+    height: 400px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 370px;
+    margin-bottom: 50px;
+}
+
+.year-bar-chart h1 {
+    margin-bottom: 50px;
+}

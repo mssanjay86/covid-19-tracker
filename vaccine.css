@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drop-down {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.drop-down #drop-districts {
+    width: 450px;
+    padding: 10px;
+}
+
+.vaccine-img {
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+p {
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+
+.details-container {
+    background-color: rgba(18, 139, 18, 0.959);
+    height: 1550px;
+    width: 50%;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.details-container p {
+    color: white;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    padding-top: 50px;
+}

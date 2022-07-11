@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="black-container">
+        <img src="./images/people.jpg" alt="">
+    </div>
+    <h1>
+        <center>Live COVID-19 Tracker</center>
+    </h1>
+    <section id="Register">
+        <form action="login.html">
+            <div class="reg-title">
+                <h2>
+                    Register
+                </h2>
+            </div>
+            <input type="text" id="username" placeholder="Enter username" required><br>
+            <input type="email" id="email" placeholder="Enter email" required><br>
+            <input type="password" id="password" placeholder="Enter password" required><br>
+            <input type="text" id="contact" placeholder="Enter contact number" required><br>
+            <div class="btns">
+                <button type="submit" id="sub-btn">Register</button>
+                <button type="reset" id="res-btn">Reset</button>
+            </div>
+        </form>
+    </section>
+    <script>
+        var username = document.getElementById("username");
+        var email = document.getElementById("email");
+        var password = document.getElementById("password");
+        var contact = document.getElementById("contact");
+        var submitBtn = document.getElementById("sub-btn");
+
+        document.getElementById("submitBtn").addEventListener("click", () => {
+            if (username.value == "" || email.value == "" || password.value == "" || contact.value == "") {
+                alert("Please enter the all the fields");
+            }
+        })
+    </script>
+</body>
+
+</html>

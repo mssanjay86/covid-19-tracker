@@ -1,0 +1,187 @@
+{
+  "1": {
+    "district id": 2,
+    "district name": "South Andaman",
+    "state_name": "Andaman and Nicobar Islands"
+  },
+  "2": {
+    "district id": 6,
+    "district name": "YSR District, Kadapa (Cuddapah)",
+    "state_name": "Andhra Pradesh"
+  },
+  "3": {
+    "district id": 38,
+    "district name": "West Siang",
+    "state_name": "Arunachal Pradesh"
+  },
+  "4": {
+    "district id": 769,
+    "district name": "West Karbi Anglong",
+    "state_name": "Assam"
+  },
+  "5": {
+    "district id": 106,
+    "district name": "West Champaran",
+    "state_name": "Bihar"
+  },
+  "6": {
+    "district id": 108,
+    "district name": "Chandigarh",
+    "state_name": "Chandigarh"
+  },
+  "7": {
+    "district id": 134,
+    "district name": "Surguja",
+    "state_name": "Chhattisgarh"
+  },
+  "8": {
+    "district id": 137,
+    "district name": "Dadra and Nagar Haveli",
+    "state_name": "Dadra and Nagar Haveli"
+  },
+  "9": {
+    "district id": 142,
+    "district name": "West Delhi",
+    "state_name": "Delhi"
+  },
+  "10": {
+    "district id": 152,
+    "district name": "South Goa",
+    "state_name": "Goa"
+  },
+  "11": {
+    "district id": 167,
+    "district name": "Valsad",
+    "state_name": "Gujarat"
+  },
+  "12": {
+    "district id": 197,
+    "district name": "Yamunanagar",
+    "state_name": "Haryana"
+  },
+  "13": {
+    "district id": 218,
+    "district name": "Una",
+    "state_name": "Himachal Pradesh"
+  },
+  "14": {
+    "district id": 233,
+    "district name": "Udhampur",
+    "state_name": "Jammu and Kashmir"
+  },
+  "15": {
+    "district id": 263,
+    "district name": "West Singhbhum",
+    "state_name": "Jharkhand"
+  },
+  "16": {
+    "district id": 285,
+    "district name": "Yadgir",
+    "state_name": "Karnataka"
+  },
+  "17": {
+    "district id": 299,
+    "district name": "Wayanad",
+    "state_name": "Kerala"
+  },
+  "18": {
+    "district id": 310,
+    "district name": "Leh",
+    "state_name": "Ladakh"
+  },
+  "19": {
+    "district id": 311,
+    "district name": "Lakshadweep",
+    "state_name": "Lakshadweep"
+  },
+  "20": {
+    "district id": 355,
+    "district name": "Vidisha",
+    "state_name": "Madhya Pradesh"
+  },
+  "21": {
+    "district id": 368,
+    "district name": "Yavatmal",
+    "state_name": "Maharashtra"
+  },
+  "22": {
+    "district id": 406,
+    "district name": "Ukhrul",
+    "state_name": "Manipur"
+  },
+  "23": {
+    "district id": 419,
+    "district name": "West Khasi Hills",
+    "state_name": "Meghalaya"
+  },
+  "24": {
+    "district id": 433,
+    "district name": "Siaha",
+    "state_name": "Mizoram"
+  },
+  "25": {
+    "district id": 442,
+    "district name": "Zunheboto",
+    "state_name": "Nagaland"
+  },
+  "26": {
+    "district id": 453,
+    "district name": "Sundargarh",
+    "state_name": "Odisha"
+  },
+  "27": {
+    "district id": 478,
+    "district name": "Yanam",
+    "state_name": "Puducherry"
+  },
+  "28": {
+    "district id": 495,
+    "district name": "Tarn Taran",
+    "state_name": "Punjab"
+  },
+  "29": {
+    "district id": 504,
+    "district name": "Udaipur",
+    "state_name": "Rajasthan"
+  },
+  "30": {
+    "district id": 536,
+    "district name": "West Sikkim",
+    "state_name": "Sikkim"
+  },
+  "31": {
+    "district id": 549,
+    "district name": "Virudhunagar",
+    "state_name": "Tamil Nadu"
+  },
+  "32": {
+    "district id": 611,
+    "district name": "Yadadri Bhuvanagiri",
+    "state_name": "Telangana"
+  },
+  "33": {
+    "district id": 621,
+    "district name": "West Tripura",
+    "state_name": "Tripura"
+  },
+  "34": {
+    "district id": 696,
+    "district name": "Varanasi",
+    "state_name": "Uttar Pradesh"
+  },
+  "35": {
+    "district id": 703,
+    "district name": "Uttarkashi",
+    "state_name": "Uttarakhand"
+  },
+  "36": {
+    "district id": 737,
+    "district name": "West Bardhaman",
+    "state_name": "West Bengal"
+  },
+  "37": {
+    "district id": 139,
+    "district name": "Diu",
+    "state_name": "Daman and Diu"
+  }
+}

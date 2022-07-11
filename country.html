@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country-wise analysis</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="country.css">
+</head>
+
+<body>
+
+    <div class="date-logout">
+        <p id="date"></p>
+        <button><a href="index.html">Logout</a></button>
+    </div>
+    <div class="heading">
+        <h1>COVID-19 TRACKER</h1>
+    </div>
+    <div class="drop-down">
+        <select id="drop-countries">
+        <option value="">Select</option>
+    </select>
+    </div>
+    <div class="container">
+        <p id="status"></p>
+        <div class="stats">
+            <div id="active-cases">
+                <i class="fa-solid fa-virus-covid"></i>
+                <p>Total cases</p>
+            </div>
+            <div id="deaths"><i class="fa-solid fa-skull-crossbones"></i>
+
+                <p>Total deaths</p>
+            </div>
+            <div id="recovered"><i class="fa-solid fa-heart-pulse"></i>
+                <p>Total recovered</p>
+            </div>
+            <div id="total-test"><i class="fa-solid fa-vial-circle-check"></i>
+                <p>Total test taken</p>
+            </div>
+            <div id="actives"><i class="fa-solid fa-lightbulb"></i>
+                <p>Active cases</p>
+            </div>
+            <div id="today-cases"><i class="fa-solid fa-calendar-day"></i>
+                <p>Today cases</p>
+            </div>
+            <div id="today-deaths"><i class="fa-solid fa-skull"></i>
+                <p>Today deaths</p>
+            </div>
+            <div id="today-recovered"><i class="fa-solid fa-check"></i>
+                <p>Today recovered</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pie-chart">
+        <h1>
+            <center>Data visualization in Pie-chart</center>
+        </h1>
+        <canvas id="myChart" height="150" width="400">
+
+        </canvas>
+    </div>
+
+    <div class="bar-chart">
+        <h1>
+            <center>Data visualization in Bar chart</center>
+        </h1>
+        <canvas id="myBarChart" height="380" width="400">
+
+        </canvas>
+    </div>
+
+    <div class="line-chart">
+        <h1>
+            <center>Data visualization in Line chart</center>
+        </h1>
+        <canvas id="myLineChart" height="380" width="400">
+
+        </canvas>
+    </div>
+
+    <div class="year-bar-chart">
+        <h1>
+            <center>Year by year analysis of COVID-19 cases</center>
+        </h1>
+        <canvas id="myYearBarChart" height="380" width="400">
+
+        </canvas>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>

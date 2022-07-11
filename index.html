@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid location Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="state.html">States</a></li>
+            <li><a href="country.html">Countries</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="vaccine.html">Vaccination Centres</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </section>
+    <section id="banner">
+        <div class="bannerImg">
+            <img src="/images/maskman.jpg" alt="Mask man">
+
+        </div>
+        <div class="bannerText">
+            <h1>Most people were affected by COVID-19.</h1>
+            <p>Be clean and keep your surroundings clean. Wash your hands frequently. Don't go anywhere unnecessarily. Avoid all kinds of crowds gathering</p>
+        </div>
+
+        <div class="btns">
+            <button class="readMorebtn"><a href="#about">Read more</a></button>
+            <button class="trackerbtn"><a href="#stats">Global stats</a> </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>
+            <center>ABOUT</center>
+        </h1>
+        <div class="abt-container">
+            <div class="abt-img">
+                <img src="./images/covid stats.jpg" alt="stats">
+            </div>
+            <div class="abt-text">
+                <p>Get live data for better decisions in an uncertain time. Stay up-to-date with valuable coronavirus (COVID-19) data summarized by confirmed cases, geography, testing and treatment, projections, and economic impact. Scroll down to read more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="protection">
+        <h1>
+            <center>How to prevent from COVID-19?</center>
+        </h1>
+
+        <div class="pro-content">
+
+            <div class="head1">
+                <h2>What to do?</h2>
+                <div class="rightThings">
+                    <h4>Wash your hand for 20 sec.</h4>
+                    <p>Please have a habit of washing of hands for 20 sec atleast to kill germs and bacteria. Use hand-sanitizers.</p>
+                    <h4>Wear mask all the time.</h4>
+                    <p>Wear quality mask for 24/7 to avoid spreading of covid-19. Avoid quality less masks.</p>
+                    <h4>Stay home</h4>
+                    <p>Don't go outside of the home if you are not feeling well. If you are already traveling and get sick on the flight or cruise, inform the crew members immediately. Contact your doctor as soon as you get home.</p>
+                </div>
+            </div>
+
+            <div class="head2">
+                <h2>What not to do?</h2>
+                <div class="rightThings">
+                    <h4>Don't touch your face</h4>
+                    <p>Don't touch your mouth, eyes, and nose if your hands are not washed. Unwashed hands might have virus that can enter your body when you touch the face.</p>
+                    <h4>Don't panic.</h4>
+                    <p>Don't panic, according to public health officials the risk of coronavirus is still not that high. Prepare yourself and take proper precautions to save yourself from the attack. Not having or renewing your health insurance can be big
+                        mistake.
+                    </p>
+                    <h4>Avoid contact with animals</h4>
+                    <p>Avoid going outside unnecessarily. Stay home and healthy. Avoid contact with animals.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="stats">
+        <h1>
+            <center>STATISTICS</center>
+
+        </h1>
+        <div class="country">
+            <img src="./images/globe.jpg" alt="globe">
+            <p id="total-countries"></p>
+            <h5>Countries</h5>
+        </div>
+        <div class="confirmed-cases">
+            <img src="/images/confirmed.jpg" alt="confirmed">
+            <p id="total-confirmed"> </p>
+            <h5>Confirmed cases</h5>
+        </div>
+        <div class="death-cases">
+            <img src="/images/death.png" alt="RIP">
+            <p id="total-deaths">0 </p>
+            <h5>Deaths</h5>
+        </div>
+        <div class="recover-cases">
+            <img src="/images/recover.png" alt="Recover">
+            <p id="recovered-cases">0 </p>
+            <h5>Recovered</h5>
+        </div>
+    </section>
+
+    <section id="vaccine">
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
